@@ -39,7 +39,7 @@ ALTER TABLE usuarios ALTER COLUMN zona_horaria SET DEFAULT "UTC-2";
 -- Para cada tabla crea 8 registros.
 
 -- Insertar registros en la tabla usuarios
-INSERT INTO usuarios (nombre, apellido, contraseña, género, telefono_contacto) VALUES
+INSERT INTO usuarios (nombre, apellido, contrasena, genero, telefono_contacto) VALUES
 	("Steve", "Rogers", "4america_cap", "Masculino", "9 46513278"),
     ("Antony", "Stark", "i_am_ironman23", "Masculino", "9 581425556"),
     ("Bruce", "Banner", "hulk_smash4568", "Masculino", "9 11557896"),
