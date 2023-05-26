@@ -52,12 +52,12 @@ INSERT INTO usuarios (nombre, apellido, contraseña, género, telefono_contacto)
 -- Insertar registros en la tabla ingresos
 INSERT INTO ingresos (id_ingreso, id_usuario) VALUES 
 	(1, 1),
-    (2, 2),
+        (2, 2),
 	(3, 3),
 	(4, 4),
 	(5, 5),
 	(6, 6),
-    (7, 7),
+    	(7, 7),
 	(8, 8);
 
 -- Parte 5: Justifique cada tipo de dato utilizado. ¿Es el óptimo en cada caso?
